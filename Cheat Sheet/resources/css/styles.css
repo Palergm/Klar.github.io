@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
+
+header {
+    text-align: center;
+    color: pink;
+    background-color: black;
+    border: 1px solid black;
+    position: fixed;
+    display: block;
+    font-family: 'Playfair Display' !important;
+    z-index: 2;
+    padding-right: 100%;
+}
+
+header a {
+    font-size: 30px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: pink;
+}
+
+.table {
+    background-image: url(https://st3.idealista.pt/news/arquivos/styles/fullwidth_xl/public/2019-04/salonedelmobile5.jpg?VersionId=uxPS_tjsQMdhSV9x8EL3E0l9wS18.Jnf&itok=QxNz-fzK);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    color: white;
+}
+
+.table h2 {
+    padding-top: 60px;
+}
+
+.table h2, p {
+    text-align: center;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.table p {
+    padding-bottom: 35px;
+}
+
+.table table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+table th {
+    border: 2px solid white;
+    height: 40px;
+}
+
+table td {
+    border: 2px solid white;
+}
+
+.propose h2 {
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+.propose img {
+    display: inline;
+    width: 600px;
+    height: 450px;
+    float: left;
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-right: 20px;
+}
+
+.propose {
+    border-top: 3px solid black;
+}
+
+.propose p {
+    padding-top: 200px;
+    padding-bottom: 280px;
+    text-align: left;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: block;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 43px;
+}
+
+#copy {
+    float: right;
+    font-size: 30px;
+    padding-right: 20px;
+    position: relative;
+    bottom: 50px;
+}
